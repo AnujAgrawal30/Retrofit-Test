@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
                 String[] employees = new String[employeeList.size()];;
                 for(int i = 0; i < employeeList.size(); i++){
-                    employees[i] = employeeList.get(i).getEmployee_name();
+                    employees[i] = employeeList.get(i).getBloger_name();
                 }
 
                 listView.setAdapter(new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, employees));

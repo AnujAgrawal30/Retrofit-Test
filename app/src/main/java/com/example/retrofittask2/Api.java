@@ -6,8 +6,8 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface Api {
-    String BASE_URL = "http://dummy.restapiexample.com/api/v1/";
+    String BASE_URL = "http://api.moodi.org";
 
-    @GET("employees")
+    @GET("blog")
     Call<List<employee>> getEmployees();
 }
